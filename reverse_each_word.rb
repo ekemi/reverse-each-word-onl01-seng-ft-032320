@@ -8,4 +8,9 @@ def reverse_each_word(str)
   end
   empty_array.join(" ")
 
+
+string_array = str.split
+empt_array = []
+string_array.each do |value|
+  values.reverse
 end
