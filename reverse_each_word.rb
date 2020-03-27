@@ -7,11 +7,11 @@ def reverse_each_word(str)
      empty_array <<  value.reverse
   end
   empty_array.join(" ")
-
-
-string_array = str.split
-empt_array = []
-string_array.each do |value|
-  value.reverse
 end
+def reverse_each_word(str)
+    string_array = str.split
+    empt_array = []
+    string_array.each do |value|
+       value.reverse
+    end
 end
