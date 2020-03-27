@@ -14,3 +14,4 @@ empt_array = []
 string_array.each do |value|
   values.reverse
 end
+end
